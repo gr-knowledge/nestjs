@@ -5,6 +5,8 @@
 npm i -g @nestjs/cli
 ```
 
+****
+
 ## Help
 ```properties
 nest --help
@@ -13,15 +15,21 @@ nest --help
 nest generate|g --help
 ```
 
+****
+
 ## Novo Projeto
 ```properties
 nest new|n my-project
 ```
 
+****
+
 ## Converter para Monorepo
 ```properties
 nest generate app my-app
 ```
+
+****
 
 ## Instalação de pacotes
 ```properties
@@ -34,6 +42,8 @@ npm i --save class-transformer class-validator
 npm i --save @types/express @nestjs/typeorm @nestjsx/crud @nestjsx/crud-typeorm typeorm mssql class-transformer class-validator
 ```
 
+****
+
 ## Executar projeto
 ```properties
 npm run start
@@ -45,10 +55,40 @@ npm run start:dev
 npm run start:dev my-app
 ```
 
-## Criar novo Módulo
+****
+
+## Nest Generate
+$ nest g <`schematic`> <`name`> [`options`]
+
+Name | Alias| Description
+--|--|--
+app | | Nova aplicação monorepo
+library | lib | Nova biblioteca
+class | cl | Nova classe
+controller | co | Novo controller
+decorator | d| Novo decorador
+filter | f | Novo filtro
+gateway | ga | Novo gateway
+guard | gu | Nova guarda
+interface | | Nova interface
+interceptor | in | Novo interceptor
+middleware | mi | Nova Middleware
+module | mo | Novo módulo
+pipe | pi | Novo pipe
+provider | pr | Novo provedor
+resolver | r | Novo resolver
+service | s | Novo serviço
+
 ```properties
+# Example:
 nest g module my-module
+
+# Alguns casos é necessário informar o caminho.
+nest g controller my-module/my-controller01
+nest g class my-module/dto/create-controller01-dto
 ```
+
+****
 
 ## Build
 Compila um aplicativo ou espaço de trabalho para uma pasta de saída.
@@ -56,17 +96,24 @@ Compila um aplicativo ou espaço de trabalho para uma pasta de saída.
 nest build
 ```
 
+****
+
 ## Info
 Exibe informações sobre pacotes de ninhos instalados e outras informações úteis do sistema.
 ```properties
 nest info|i
 ```
 
+****
+
 ## Update
 Atualizar as dependências para última versão.
 ```properties
 nest update|u
 ```
+
+****
+
 ## Add
 Importar biblioteca.
 ```properties
