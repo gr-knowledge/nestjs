@@ -79,10 +79,6 @@ provider | pr | Novo provedor
 resolver | r | Novo resolver
 service | s | Novo serviço
 
-```properties
-# Example:
-nest g module my-module
-
 
 ## Exemplos
 > Módulo
@@ -102,11 +98,6 @@ nest g service veiculo/fabricante
 nest g class veiculo/fabricante/fabricante.entity
 ```
 
-
-# Alguns casos é necessário informar o caminho.
-nest g controller my-module/my-controller01
-nest g class my-module/dto/create-controller01-dto
-```
 
 ****
 
