@@ -83,6 +83,26 @@ service | s | Novo serviço
 # Example:
 nest g module my-module
 
+
+## Exemplos
+> Módulo
+```properties
+nest g module veiculo
+```
+> Controler
+```properties
+nest g controler veiculo/fabricante
+```
+> Service
+```properties
+nest g service veiculo/fabricante
+```
+> Entity
+```properties
+nest g class veiculo/fabricante/fabricante.entity
+```
+
+
 # Alguns casos é necessário informar o caminho.
 nest g controller my-module/my-controller01
 nest g class my-module/dto/create-controller01-dto
