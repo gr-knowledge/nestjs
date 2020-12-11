@@ -2,7 +2,8 @@
 
 ## Instalação
 ```properties
-npm i -g @nestjs/cli
+npm i -g @nestjs/cli (última versão)
+npm i -g @nestjs/cli@7.5.1
 ```
 
 ****
